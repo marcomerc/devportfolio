@@ -36,17 +36,32 @@
 
 <body>
     <!-- <div id="mobile-menu-open" class="shadow-large"> -->
-    <div id="mobile-menu-open"  class="shadow-large">
+    <!-- <div id="mobile-menu-open"  class="shadow-large">
 
           <i class="fa fa-bars" aria-hidden="false"></i>
-    </div>
+    </div> -->
     <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-         <!-- <div> -->
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <h5 class="text-white h4">Collapsed content</h5>
+          <span class="text-muted">Toggleable via the navbar brand.</span>
         </div>
-        <ul id="menu" class="shadow">
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+
+    <!-- <header>
+      <div id="mobile-menu-close">
+       <div>
+        <span>Close</span> <i class="fa fa-times" aria-hidden="false"></i>
+         </div>
+        <ul id="navbar " class="shadow">
             <li>
                 <a href="#about">About</a>
             </li>
@@ -62,11 +77,9 @@
             <li>
                 <a href="#skills">Skills</a>
             </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
+
         </ul>
-    </header>
+    </header> -->
     <!-- End header -->
 
     <div id="lead">
