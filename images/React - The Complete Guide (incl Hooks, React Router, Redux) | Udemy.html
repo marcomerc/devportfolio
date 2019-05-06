@@ -1,0 +1,1741 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-us" >
+    <head>
+        <title>React - The Complete Guide (incl Hooks, React Router, Redux) | Udemy</title>
+
+        
+            
+<meta name="description" content="Dive in and learn React from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!"><meta name="apple-itunes-app" content="app-id=562413829, affiliate-data=ct=Safari_SmartBanner&amp;amp;pt=1240482"><meta name="robots" content="noindex,follow"><meta name="medium" content="mult"><meta name="google-play-app" content="app-id=com.udemy.android"><meta name="title" content="React 16: The Complete Course (incl. React Router 4 &amp; Redux)"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0"><meta name="twitter:card" content="summary_large_image"><meta property="fb:app_id" content="313137469260"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="udemy_com:available" content="1"><meta property="udemy_com:category" content="Development"><meta property="udemy_com:instructor" content="https://www.udemy.com/user/academind/"><meta property="udemy_com:price" content="$189.99"><meta property="og:title" content="React 16: The Complete Course (incl. React Router 4 &amp; Redux)"><meta property="og:url" content="https://www.udemy.com/react-the-complete-guide-incl-redux/"><meta property="og:description" content="Dive in and learn React from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!"><meta property="og:image" content="https://i.udemycdn.com/course/480x270/1362070_b9a1_2.jpg"><meta property="og:type" content="udemy_com:course"><meta property="og:site_name" content="Udemy"><meta property="og:locale" content="en_US"><meta name="twitter:domain" content="www.udemy.com"><meta name="twitter:title" content="React 16: The Complete Course (incl. React Router 4 &amp; Redux)"><meta name="twitter:url" content="https://www.udemy.com/react-the-complete-guide-incl-redux/"><meta name="twitter:description" content="Dive in and learn React from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!"><meta name="twitter:image" content="https://i.udemycdn.com/course/480x270/1362070_b9a1_2.jpg"><meta name="twitter:site" content="@udemy"><meta itemprop="name" content="React 16: The Complete Course (incl. React Router 4 &amp; Redux)"><meta itemprop="url" content="https://www.udemy.com/react-the-complete-guide-incl-redux/"><meta itemprop="description" content="Dive in and learn React from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!"><meta itemprop="image" content="https://i.udemycdn.com/course/480x270/1362070_b9a1_2.jpg">
+
+
+        
+
+        
+            <link type="text/css" href="/staticx/udemy/js/webpack/entry-main-desktop.b8054ff7c349da3ead06.css" rel="stylesheet" />
+        
+
+        
+            
+            <link rel="preconnect" href="https://udemy-images.udemy.com" crossorigin />
+            
+            <link rel="dns-prefetch" href="https://udemy-images.udemy.com" crossorigin />
+            
+        
+
+        
+            
+            <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-57x57.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-114x114.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-72x72.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-144x144.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-60x60.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-120x120.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-76x76.png" />
+            <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.udemy.com/staticx/udemy/images/v6/apple-touch-icon-152x152.png" />
+            
+                <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-196x196.png" sizes="196x196" />
+                <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-96x96.png" sizes="96x96" />
+            
+            <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-32x32.png" sizes="32x32" />
+            <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-16x16.png" sizes="16x16" />
+            
+                <link rel="icon" type="image/png" href="https://www.udemy.com/staticx/udemy/images/v6/favicon-128.png" sizes="128x128" />
+            
+            <meta name="application-name" content="Udemy"/>
+            <meta name="msapplication-TileColor" content="#EDECE6" />
+            <meta name="msapplication-TileImage" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-144x144.png" />
+            <meta name="msapplication-square70x70logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-70x70.png" />
+            <meta name="msapplication-square150x150logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-150x150.png" />
+            <meta name="msapplication-wide310x150logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-310x150.png" />
+            <meta name="msapplication-square310x310logo" content="https://www.udemy.com/staticx/udemy/images/v6/mstile-310x310.png" />
+        
+
+        
+            <style>/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OX-hpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OVuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN_r8OXOhv.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWJ0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFUZ0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWZ0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVp0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFWp0bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50bf8pkAp6a.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFW50d.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOX-hpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOVuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 600;
+    src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOXOhv.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOX-hpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOVuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXuhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXehpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhpKKSTj5PW.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-display: fallback;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UN7rgOXOhv.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style>
+        
+
+        
+            <style>
+    .org-logo {
+        background-image: url('https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg');
+    }
+
+    @media (min-resolution: 2dppx),
+    (min-resolution: 192dpi),
+    (-webkit-min-device-pixel-ratio: 2) {
+        @-ms-viewport { width:device-width; zoom:1.0; }
+        .org-logo {
+            /*retina display*/
+            background-image: url('https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg');
+        }
+    }
+</style>
+
+        
+
+        
+    <link type="text/css" href="/staticx/udemy/js/webpack/asset-player.4b3d2e0ddfd8c8ea0f17.css" rel="stylesheet" />
+
+
+        <script type="text/javascript">
+    (function () {
+        var head,
+            regExp = "",
+            version = -1,
+            userAgent = navigator.userAgent;
+
+        if (navigator.appName == 'Microsoft Internet Explorer') {
+            regExp = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+        } else if (navigator.appName == 'Netscape') {
+            regExp = new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})");
+        }
+        if (regExp && regExp.exec(userAgent) != null) {
+            version = parseFloat(RegExp.$1);
+        }
+
+        if (version > 9) {
+            head = document.getElementsByTagName("html")[0];
+            head.className = head.className + " ie";
+            if (version == 10) {
+                head.className = head.className + " ie10";
+            }
+        }
+    })();
+</script>
+
+
+        <script>
+    // Polyfill for IE in order to fix errors related with new Event() and new CustomEvent()
+    // https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent#Polyfill
+    (function () {
+      if ( typeof window.CustomEvent === "function" ) return false;
+      function CustomEvent ( event, params ) {
+        params = params || { bubbles: false, cancelable: false, detail: undefined };
+        var evt = document.createEvent( 'CustomEvent' );
+        evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+        return evt;
+       }
+      CustomEvent.prototype = window.Event.prototype;
+      window.CustomEvent = CustomEvent;
+      window.Event = CustomEvent;
+    })();
+
+    // Shim for requestIdleCallback.
+    // https://developers.google.com/web/updates/2015/08/using-requestidlecallback
+    window.requestIdleCallback = window.requestIdleCallback || function (cb) {
+      var start = Date.now();
+      return setTimeout(function () {
+        cb({
+          didTimeout: false,
+          timeRemaining: function () {
+            return Math.max(0, 50 - (Date.now() - start));
+          }
+        });
+      }, 1);
+    };
+</script>
+
+
+
+<script>
+    var UD = UD || {};
+    UD.me = {"initials":"M","time_zone":"America/Dawson","learning_languages":[],"email":"mmerc007@ucr.edu","project_clarity_beta_enabled":null,"image_50x50":"https://i.udemycdn.com/user/50x50/anonymous_3.png","name":"Marco","language":"en","surname":"","qualaroo_survey_ids":[],"country":"US","encrypted_affiliate_email":"6383a3474b47a763781ba15c3ca0c6b88c3a3c9e","settings":{"disableAllEmails":"on","seenCollectionsMenuTooltip":"true","interstitialAutoNext":null},"project_clarity_alpha_enabled":null,"encrypted_id":"x01HmggM5S_NtG0z8kqK3IekQ==","image_100x100":"https://i.udemycdn.com/user/100x100/anonymous_3.png","id":39708390,"encrypted_affiliate_uid":"654c5a7afc3952b7df329a8b7cef6d5948478502","display_name":"Marco","created":"2017-11-27T01:40:57Z","locale":"en_US","title":"Marco","_class":"user"};
+    UD.Config = {"brand":{"is_udemy":true,"is_import_courses_enabled":true,"organization":false,"is_discussions_enabled":true,"is_share_on_slack_enabled":false,"product_logo_light":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral-light.svg","is_government":false,"product_logo":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg","is_social_sharing_enabled":true,"is_autoshow_cc_enabled":true,"identifier":"udemy","is_feed_commenting_enabled":true,"is_teaching_enabled":true,"is_messaging_enabled":true,"logo_url_2x":"https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg","is_team":false,"has_organization":false,"product_name":"Udemy","is_external_sources_enabled":true,"is_sso_enabled":false,"is_add_reviews_enabled":true,"link_bar_nav_list_id":"ud-link-bar","is_share_to_workplace_enabled":false,"title":"Udemy","is_profile_functions_enabled":true,"_class":"brand"},"third_party":{"intercom":{"app_id":"sehj53dd"},"raven_dsn":"https://369c830fbf534485a068ab919d71b80d@app.getsentry.com/38617","sift_science_account":false,"google_analytics_id_for_ufb_only":"UA-12366301-47","google_tag_manager_id":"GTM-7BF3X","uft_stripe_publishable_key":"pk_live_dCyHJcZsk8NaNwx1PiRSpqqq","google_analytics_id":"UA-12366301-1","paypal":{"returnurl":"https://www.udemy.com/user/paypal-login-return","authend":"live","appid":"ASRJrkbBfTwvxWNTn-QRakeimIbsjmBuK5hWj4zq3QJL46CKIYNb-RiKjrTSe-2iZ-EFrCCuXGZTxHjY"},"filestack":{"audio_extensions":[".mp3",".wav"],"video_extensions":[".avi",".mpg",".mpeg",".flv",".mov",".m2v",".m4v",".mp4",".rm",".ram",".vob",".ogv",".webm",".wmv"],"source_code_extensions":[".rb",".py"],"presentation_extensions":[".pdf"],"s3_fineuploader_misc_extensions":[".pbm",".sse",".ac",".hbc",".zirz",".tcl",".atomcat",".msm",".relo",".zone",".ktx",".mwf",".dwg",".wbmp",".xhtml",".qfx",".tcu",".uvvv",".wgt",".s14",".sis",".xml",".orq",".pil",".rgb",".vsw",".sandboxed",".dot",".semf",".7",".vsc",".s1w",".rpss",".ns2",".igl",".viv",".xsm",".ic3",".sdp",".icc",".skd",".xmt_bin",".sql",".ic4",".scs",".psid",".mtm",".dist",".skt",".gsheet",".itp",".cc",".rq",".sema",".ssml",".sfs",".prz",".oda",".aiff",".cml",".skp",".siv",".ipfix",".vew",".wmv",".s1n",".xpw",".fcdt",".portpkg",".cmp",".cw",".3gpp",".otc",".tfi",".3gp",".jpm",".mpf",".tsa",".esa",".metalink",".nsg",".wmx",".kcm",".mxf",".xhtm",".clkp",".hdr",".xbm",".mpe",".sus",".ecelp9600",".jar",".jad",".otf",".art",".or2",".nsh",".gdl",".mpm",".box",".5",".xdm",".mwc",".gsm",".xdw",".uvt",".pbd",".dtd",".ecelp7470",".qxl",".xlw",".pyv",".hpi",".u8dsn",".ccc",".pgn",".pgp",".otg",".icd",".me",".request",".xhvml",".rnd",".xul",".xlm",".dxr",".fsc",".notebook",".list3820",".wmls",".c11amc",".ppd",".slt",".hqx",".ts",".finf",".pti",".vcf",".xdp",".atomsvc",".drc",".hal",".axv",".curl",".cil",".prc",".dart",".pack",".koz",".cuc",".epub",".csh",".asx",".sxc",".djv",".jtd",".ps",".win",".iso",".stk",".clkx",".distz",".mqy",".3dm",".amr",".rdf",".s1a",".soa",".oxt",".sm",".taglet",".xvm",".ic6",".mid",".xlb",".uvx",".dataless",".exe",".mif",".xps",".uvz",".mxmf",".mml",".xif",".cxx",".rng",".ink",".efif",".igs",".ief",".p12",".sfd",".soc",".ivp",".sid",".xsd",".seed",".dms",".stml",".x_b",".cst",".123",".miz",".4",".rp9",".vbk",".ic7",".rdf-crypt",".flo",".uri",".hh",".davmount",".sldx",".es3",".ns4",".mpd",".obj",".tlclient",".pwn",".vcard",".ppsm",".swf",".m3u",".mmr",".auc",".yang",".cdmia",".spl",".twds",".yin",".ddd",".irm",".std",".sh",".ez2",".torrent",".stm",".spx",".ogg",".cer",".vcd",".med",".ppm",".pya",".gqf",".dotm",".fe_launch",".asc",".es",".au",".fzs",".lbc",".dcm",".igx",".gtar",".bh2",".bpd",".svc",".lwp",".jpf",".ms",".xlam",".kpt",".mrc",".iges",".odi",".cap",".cmc",".h",".kwt",".clkk",".tsq",".pre",".gbr",".nnd",".wsdl",".s1j",".uoml",".ifb",".ic5",".azs",".tr",".rcprofile",".xla",".vwx",".hvd",".nsf",".mts",".mov",".flv",".sldm",".dr",".wlnk",".stif",".sxd",".mcd",".otp",".hpid",".p7c",".el",".bcpio",".aep",".mpkg",".dpg",".pcl",".ice",".mdi",".wav",".py",".kpr",".fit",".pfr",".uvvu",".ksp",".dssc",".tiff",".uvvm",".scm",".chm",".ep",".ez",".joda",".dtshd",".xfdl",".uvvx",".crtr",".p7m",".qwd",".mms",".oga",".imp",".fvt",".si",".mdc",".uvi",".fcs",".package",".map",".fm",".csv",".xo",".grv",".ics",".s1h",".asf",".gv",".xns",".cpl",".txt",".so",".atomdeleted",".spd",".p7s",".eml",".atom",".vst",".ppa",".clkw",".oprc",".ism",".kar",".sv4cpio",".sam",".smov",".ent",".uvf",".iota",".uvd",".copyright",".docm",".smil",".quox",".spp",".uni",".jp2",".u8msg",".vcx",".pdb",".uvvh",".vsf",".saf",".docx",".zip",".sig",".fst",".plc",".sxg",".ei6",".sic",".nml",".mxl",".smo",".pseg3820",".x_t",".tag",".teacher",".fbs",".m3u8",".potm",".cii",".kil",".quiz",".ogv",".sub",".uvva",".et3",".ltf",".plj",".gex",".g2w",".gif",".cww",".xlsx",".xpx",".x3d",".wpd",".acn",".rpst",".mpg4",".sac",".sppt",".hvp",".ppsx",".bz2",".pyc",".esf",".thmx",".c4p",".scq",".sjpg",".pl",".uvm",".dir",".ots",".mrcx",".mpga",".fdt",".ndl",".lbe",".kfo",".roff",".tnf",".rtf",".smzip",".edm",".hbci",".mp2",".mag",".mlp",".xslt",".tfx",".vsd",".rsheet",".iif",".lvp",".uvvd",".mbk",".ic1",".btif",".ccmp",".gram",".uvvz",".mp4",".xop",".omg",".tuc",".doc",".xpm",".psd",".mesh",".daf",".fpx",".f90",".lasxml",".xwd",".1905.1",".nlu",".fxpl",".wk1",".ram",".seml",".bin",".kmz",".rnc",".cdmiq",".m21",".3gpp2",".plf",".sem",".sieve",".kml",".s1g",".json",".ggt",".emma",".hxx",".bdm",".xyz",".pqa",".apk",".tsr",".pki",".etx",".wqd",".wiz",".ndc",".pptm",".atx",".ufd",".eol",".tmo",".ma",".ez3",".jnlp",".kom",".pyo",".png",".g\u00b3",".grxml",".g3w",".xls",".fits",".dll",".mxi",".ppam",".tei",".t38",".mail",".stf",".hpgl",".qcp",".ftc",".scd",".sxm",".man",".uvvf",".edx",".meta4",".apr",".dpgraph",".mgp",".fts",".mus",".mxu",".nnw",".c11amz",".cif",".swi",".pkg",".s11",".zmm",".cdmid",".mpn",".slc",".vcg",".aal",".st",".bed",".dsm",".qca",".tar",".upa",".gtw",".css",".gre",".djvu",".sxls",".clkt",".dae",".mpeg",".s1m",".rpm",".rs",".xbd",".726",".lostsyncxml",".ic0",".roa",".rld",".qxd",".i2g",".apxml",".ica",".aa3",".srx",".pnm",".s1e",".ait",".pkd",".uvu",".snd",".xdf",".m",".wsc",".gqs",".sgi",".dmp",".o4a",".dsc",".xltx",".mseq",".dpkg",".xmt_txt",".spng",".log",".semd",".oa3",".utz",".mets",".ims",".qxb",".bmp",".nitf",".ac3",".provn",".fti",".hps",".aifc",".texinfo",".uvv",".jpx",".wpl",".abc",".bat",".wcm",".m4a",".ns3",".mjp2",".crx",".mxml",".xspf",".or3",".xpi",".silo",".vrml",".mpa",".sv4crc",".moml",".umj",".ter",".tao",".xfdf",".cellml",".dfac",".dd2",".wrl",".cpio",".htm",".sjp",".nws",".qps",".ngdat",".sc",".cpkg",".org",".txf",".zfo",".ami",".pvb",".ahead",".tau",".wbs",".ttf",".nb",".wps",".azf",".uric",".cdxml",".karbon",".mb",".wmc",".icm",".msd",".dp",".3",".n3",".mfm",".dvb",".mads",".htke",".opf",".uris",".igm",".ors",".ico",".awb",".pot",".vss",".rtx",".msh",".twd",".enw",".mj2",".uvg",".sms",".unityweb",".1",".wml",".ra",".ras",".rm",".evc",".odg",".oxps",".appcache",".ipk",".ods",".2",".uvvt",".cdbcmsg",".uvh",".mods",".ksh",".azv",".tra",".ai",".spdf",".mbox",".cdy",".8",".fxm",".m4u",".dls",".nds",".provx",".str",".pptx",".ult",".ptid",".gac",".gmx",".mxs",".bkm",".jpg2",".rsm",".rct",".icf",".json-patch",".flx",".mp3",".dwf",".sswf",".jpeg",".g3",".vpm",".skm",".rgbe",".fly",".xsl",".ttl",".cl",".lrm",".at3",".mp1",".scsf",".cdkey",".pod",".cpt",".pkipath",".movie",".wdb",".dna",".flw",".gz",".dm",".eot",".slaz",".ivu",".midi",".sdkm",".wg",".zaz",".class",".xlt",".rif",".xpr",".plb",".shf",".cnd",".xlsb",".sl",".ifm",".ott",".sgml",".bmi",".s1q",".c",".fo",".acutc",".nim",".mmd",".dvi",".gxt",".atc",".rep",".src",".u8hdr",".lmp",".afp",".smpg",".vis",".dcf",".sml",".pps",".cdf",".3dml",".mpt",".listafp",".evb",".mpy",".mp21",".link66",".sgif",".ecelp4800",".wmlsc",".btf",".sdkd",".lbd",".odb",".uvvs",".xht",".study-inter",".p8",".u8mdn",".mpp",".xel",".oti",".pm",".ustar",".cgm",".mpc",".qwt",".gph",".text",".spn",".c4d",".ext",".pfx",".fla",".see",".mc1",".potx",".xltm",".msty",".wax",".xlim",".ktr",".mseed",".hvs",".sdf",".tpl",".entity",".axa",".hdf",".ogx",".xz",".crl",".ssw",".odd",".jpgm",".sxi",".s3m",".irp",".sdoc",".c4u",".ktz",".tif",".psb",".bar",".spo",".jisp",".xlc",".mgz",".fxp",".uo",".mmf",".xlsm",".wv",".rlc",".latex",".ssf",".tree",".teiCorpus",".msf",".model-inter",".texi",".ntf",".aso",".mod",".xfd",".pcap",".pdf",".smv",".inkml",".les",".qt",".knp",".kon",".sti",".669",".rdz",".chrt",".wm",".dxp",".msl",".mft",".pls",".pwz",".cla",".s1p",".opus",".tsv",".wbxml",".qxt",".xvml",".gtm",".smp3",".rss",".td",".zir",".stw",".svg",".xyze",".spot",".lostxml",".pskcxml",".p10",".xmls",".flac",".fg5",".vxml",".cdmio",".wks",".xsf",".c4f",".lzh",".sgm",".html",".odc",".evw",".qbo",".sru",".oth",".t",".dd",".tex",".qam",".oas",".tpt",".jpg",".mpg",".cryptonote",".eps",".csp",".l16",".pgb",".wspolicy",".js",".acc",".tga",".m1v",".nc",".ppkg",".xav",".n-gage",".wma",".emm",".dcr",".jfif",".nns",".qcall",".dvc",".lha",".dis",".gim",".sisx",".xdssc",".sxw",".o4v",".kwd",".shar",".webm",".a",".webp",".ddf",".dts",".dotx",".spf",".avi",".frm",".wvx",".pgm",".tur",".oa2",".dor",".uvvg",".tsd",".mhtml",".odp",".jpe",".ccxml",".geo",".tcap",".wk4",".kne",".svgz",".ic2",".manifest",".ghf",".mht",".wk3",".ppt",".aif",".ufdl",".jlt",".uvvp",".preminet",".c4g",".xcs",".uvvi",".img",".smht",".odm",".osf",".sla",".3g2",".sxl",".uva",".s3df",".wtb",".sit",".vtu",".sfd-hdstx",".wadl",".rst",".m2v",".ggb",".xpdl",".vbox",".fdf",".odt",".smi",".cdmic",".exi",".tnef",".susp",".txd",".odf",".nbp",".sdo",".ic8",".smh",".cab",".kia",".rip",".uvs",".smp",".conf",".woff",".m4v",".6",".wmlc",".stc",".dxf",".acu",".xca",".uvp",".anx",".pml",".wif",".rl",".jam",".bmml",".spq",".xar",".xer",".o",".m15",".paw",".rms",".fnc",".tgz"],"filepicker_misc_extensions":[".gif",".jpg",".jpeg",".png",".rar",".zip",".pdf"],"key":"A0EHlHYkEQbCTpDvxEwAYz"},"stripe_publishable_key":"pk_live_xOuIgZiF7hb3wSwFSAOz3dRm","zendesk":{"refund_form_id":406368},"pusher":{"coding_exercise_event":"coding-exercise-evaluated","key":"825910825f8199bd5b21"},"s3":{"asset":{"bucket_url":"https://udemy-web-upload-transitional.s3.amazonaws.com","key":"AKIAIOTLFW3HMG563JEA"},"images":{"base_url":"https://i.udemycdn.com/"},"image_asset":{"bucket_url":"https://udemy-image-web-upload.s3.amazonaws.com","key":"AKIAIOTLFW3HMG563JEA"}},"user_stripe_publishable_key":"pk_live_xOuIgZiF7hb3wSwFSAOz3dRm","branch_metrics":{"android_ufb_download_url":"http://ude.my/android-ufb","ios_ufb_download_url":"http://ude.my/ios-ufb","android_download_url":"http://ude.my/android","ios_download_url":"http://ude.my/ios"},"google_analytics_id_for_course_taking":"UA-12366301-45","facebook_app_id":"313137469260"},"env":"PROD","app_name":"course_taking","price_country":{"currency_formatter":{"pattern":"!#,##0.00","decimal":".","symbol":"$","locale":"en_US","scale":2,"group":",","currency":"usd"},"currency_symbol":"$","currency_decimal_places":2,"id":"US","usd_currency_formatter":{"pattern":"!#,##0.00","decimal":".","symbol":"$","locale":"en_US","scale":2,"group":",","currency":"usd"},"_class":"country","currency":"usd","currency_charm_amount":-0.01},"marketplace_country":{"id":"US","title":"United States","_class":"country","iso_code":"USA","currency":"usd"},"features":{"shopping_cart":true,"report_abuse":true,"ufb_notices_footer":{"top_com":true},"bundle":{"instructor_bio":{"social_links":true}},"home":{"my_courses":{"free_label":true,"privacy":true,"revenue":true},"signup_cta":true},"course_landing_page":{"instructor_bio":{"social_links":true,"image":true,"stats":true},"incentives":{"access_tv":true,"lifetime_access":true},"reviews":{"show_user_avatar":true},"money_back_guarantee":true},"notice":{"smart_bar":false,"instructor_bar":false},"invite":{"alert":true},"course":{"refundable":true,"students":{"unenroll":false},"announcements":{"comments":{"view":true}},"discussions":{"view":true}},"gift_course":true,"flyout":true,"zendesk_chat":false,"course_review":{"clp_review_search":true,"leave_feedback":true},"hello_bar":{"terms":true,"pricing":true,"instructor":false},"wishlist":true,"discount":{"change_alerts":true},"social_share":{"welcome_popup":true,"email":true},"intercom_chat":true,"logged_in_home":{"ufb_ad":false,"linkbar_level_2":true},"organization":{"assignments":{"due_date":false}},"sd_navigation":true,"ufb_notices":true},"url":{"to_app":"https://www.udemy.com/","to_images":"https://www.udemy.com/staticx/udemy/images/","to_page_events":"https://page-events-ustats.udemy.com/","to_js":"https://www.udemy.com/staticx/udemy/js/","to_root":"https://www.udemy.com/"},"supported_languages":[{"name":"English","lang":"en","locale":"en_US"},{"name":"Deutsch","lang":"de","locale":"de_DE"},{"name":"Espa\u00f1ol","lang":"es","locale":"es_ES"},{"name":"Fran\u00e7ais","lang":"fr","locale":"fr_FR"},{"name":"Bahasa Indonesia","lang":"id","locale":"id_ID"},{"name":"Italiano","lang":"it","locale":"it_IT"},{"name":"\u65e5\u672c\u8a9e","lang":"ja","locale":"ja_JP"},{"name":"\ud55c\uad6d\uc5b4","lang":"ko","locale":"ko_KR"},{"name":"Nederlands","lang":"nl","locale":"nl_NL"},{"name":"Polski","lang":"pl","locale":"pl_PL"},{"name":"Portugu\u00eas","lang":"pt","locale":"pt_BR"},{"name":"Rom\u00e2n\u0103","lang":"ro","locale":"ro_RO"},{"name":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439","lang":"ru","locale":"ru_RU"},{"name":"\u0e20\u0e32\u0e29\u0e32\u0e44\u0e17\u0e22","lang":"th","locale":"th_TH"},{"name":"T\u00fcrk\u00e7e","lang":"tr","locale":"tr_TR"},{"name":"\u4e2d\u6587(\u7b80\u4f53)","lang":"zh-cn","locale":"zh_CN"},{"name":"\u4e2d\u6587(\u7e41\u9ad4)","lang":"zh-tw","locale":"zh_TW"}],"version":"c278f193ad99ea117bc1deafdffdb34b7ef3c55e"};
+    UD.site_stats = {"organizations":{"num_courses":3000},"default":{"num_students":24,"num_topics":2000,"num_courses":100000,"num_instructors":35000}};
+    UD.visiting = {"first_visit_time":"2019-04-07T20:01:38.259Z","visitor_uuid":"0009fef685064fffacba26be562fefc5","is_first_time_visitor":false};
+</script>
+
+
+
+<script>
+    UD.request = {
+        locale: 'en_US',
+        language_simple_english_title: 'English',
+        termsBarType: '',
+        termsBarUrls: "",
+        isMobile: false,
+        serverTimestamp: '2019-04-08T14:12:47.399106-07:00',
+        clientTimestamp: new Date().toISOString(),
+        
+            extraIntercomData: {"hide_default_launcher":true},
+        
+        experiment: {"fe":{"ids":{"1976":4970},"values":{"global_filtering_active":true}},"sw":{"ids":{"2008":5062,"1974":4966},"values":{"courseTakingV5Rollout":true,"ufb_header_ad":{"show_ad":true,"drop_bell":false}}},"brwli":{"ids":{"1938":4870},"values":{"display_narrow_LIHP":false}},"tgt":{"ids":{"19200":19204},"values":{}}},
+    };
+</script>
+
+<script>
+    
+    window.GoogleAnalyticsObject = 'ga';
+    window.ga = function () {
+        (window.ga.q = window.ga.q || []).push(arguments);
+    };
+    window.ga.l = 1 * new Date();
+
+    UD.GoogleAnalytics = UD.GoogleAnalytics || {};
+    UD.GoogleAnalytics.createAccount = function (accountId, propertyName, domainName) {
+        if (accountId) {
+            if (propertyName) {
+                // Required for multiple trackers
+                window.ga('create', accountId, 'auto', {'name': propertyName, 'cookieDomain': domainName || 'none', 'siteSpeedSampleRate': 10});
+            } else {
+                window.ga('create', accountId, 'auto', {'siteSpeedSampleRate': 10});
+                window.ga('require', 'displayfeatures'); // Enables retargeting
+            }
+        }
+    };
+    UD.GoogleAnalytics.createAccount(UD.Config.third_party.google_analytics_id);
+</script>
+
+<script>
+    if (window.performance && typeof window.performance.mark === 'function'
+            && typeof window.performance.measure === 'function') {
+        UD.performance = {
+            _trackedResources: [],
+            _eventNamePrefix: 'UD-',
+            trackResourceTiming: function (resourceName, resourceUrl) {
+                this._trackedResources.push({ name: resourceName, url: resourceUrl });
+            },
+            mark: function (name) {
+                window.performance.mark(this._eventNamePrefix + name);
+            },
+            start: function (name) {
+                window.performance.mark(this._eventNamePrefix + '_' + name + '-start');
+            },
+            end: function (name) {
+                var endMark = this._eventNamePrefix + '_' + name + '-end';
+                var startMark = this._eventNamePrefix + '_' + name + '-start';
+                window.performance.mark(endMark);
+                
+                if (window.performance.getEntriesByName(startMark).length > 0) {
+                    window.performance.measure(this._eventNamePrefix + name, startMark, endMark);
+                }
+            },
+            sync: function() {
+                
+                window.dispatchEvent(new CustomEvent('syncPerf',
+                    { detail: { trackedResources: this._trackedResources } }
+                ));
+            }
+        };
+    } else {
+        UD.performance = {
+            trackResourceTiming: Function.prototype,
+            mark: Function.prototype,
+            start: Function.prototype,
+            end: Function.prototype,
+            sync: Function.prototype
+        };
+    }
+</script>
+
+<script>
+   (function activateMyQualaroos(surveyIds) {
+        window._kiq = window._kiq || [];
+        var i, property;
+        for (i = 0; i < surveyIds.length; i++) {
+            property = {};
+            property[surveyIds[i]] = true;
+            window._kiq.push(['set', property]);
+        }
+        window._kiq.push(['identify', UD.visiting.visitor_uuid || '']);
+    })(UD.me.qualaroo_survey_ids);
+</script>
+
+
+
+<script>
+    window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};
+</script>
+
+
+
+
+
+    
+        <script>
+            UD.browse = {
+                navigation_categories: [{"children":[{"children":null,"title":"Web Development","icon_name":"web-development","type":"subcategory","title_cleaned":"web-development","id":8,"absolute_url":"/courses/development/web-development/"},{"children":null,"title":"Mobile Apps","icon_name":"mobile-apps","type":"subcategory","title_cleaned":"mobile-apps","id":10,"absolute_url":"/courses/development/mobile-apps/"},{"children":null,"title":"Programming Languages","icon_name":"programming-languages","type":"subcategory","title_cleaned":"programming-languages","id":12,"absolute_url":"/courses/development/programming-languages/"},{"children":null,"title":"Game Development","icon_name":"game-development","type":"subcategory","title_cleaned":"game-development","id":14,"absolute_url":"/courses/development/game-development/"},{"children":null,"title":"Databases","icon_name":"databases","type":"subcategory","title_cleaned":"databases","id":16,"absolute_url":"/courses/development/databases/"},{"children":null,"title":"Software Testing","icon_name":"software-testing","type":"subcategory","title_cleaned":"software-testing","id":18,"absolute_url":"/courses/development/software-testing/"},{"children":null,"title":"Software Engineering","icon_name":"software-engineering","type":"subcategory","title_cleaned":"software-engineering","id":20,"absolute_url":"/courses/development/software-engineering/"},{"children":null,"title":"Development Tools","icon_name":"development-tools","type":"subcategory","title_cleaned":"development-tools","id":362,"absolute_url":"/courses/development/development-tools/"},{"children":null,"title":"E-Commerce","icon_name":"e-commerce","type":"subcategory","title_cleaned":"e-commerce","id":354,"absolute_url":"/courses/development/e-commerce/"}],"title":"Development","icon_name":"development","type":"category","title_cleaned":"development","id":288,"absolute_url":"/courses/development/"},{"children":[{"children":null,"title":"Finance","icon_name":"finance","type":"subcategory","title_cleaned":"finance","id":24,"absolute_url":"/courses/business/finance/"},{"children":null,"title":"Entrepreneurship","icon_name":"entrepreneurship","type":"subcategory","title_cleaned":"entrepreneurship","id":26,"absolute_url":"/courses/business/entrepreneurship/"},{"children":null,"title":"Communications","icon_name":"communications","type":"subcategory","title_cleaned":"communications","id":28,"absolute_url":"/courses/business/communications/"},{"children":null,"title":"Management","icon_name":"management","type":"subcategory","title_cleaned":"management","id":30,"absolute_url":"/courses/business/management/"},{"children":null,"title":"Sales","icon_name":"sales","type":"subcategory","title_cleaned":"sales","id":32,"absolute_url":"/courses/business/sales/"},{"children":null,"title":"Strategy","icon_name":"strategy","type":"subcategory","title_cleaned":"strategy","id":34,"absolute_url":"/courses/business/strategy/"},{"children":null,"title":"Operations","icon_name":"operations","type":"subcategory","title_cleaned":"operations","id":36,"absolute_url":"/courses/business/operations/"},{"children":null,"title":"Project Management","icon_name":"project-management","type":"subcategory","title_cleaned":"project-management","id":38,"absolute_url":"/courses/business/project-management/"},{"children":null,"title":"Business Law","icon_name":"business-law","type":"subcategory","title_cleaned":"business-law","id":40,"absolute_url":"/courses/business/business-law/"},{"children":null,"title":"Data \u0026 Analytics","icon_name":"data-and-analytics","type":"subcategory","title_cleaned":"data-and-analytics","id":44,"absolute_url":"/courses/business/data-and-analytics/"},{"children":null,"title":"Home Business","icon_name":"home-business","type":"subcategory","title_cleaned":"home-business","id":46,"absolute_url":"/courses/business/home-business/"},{"children":null,"title":"Human Resources","icon_name":"human-resources","type":"subcategory","title_cleaned":"human-resources","id":48,"absolute_url":"/courses/business/human-resources/"},{"children":null,"title":"Industry","icon_name":"industry","type":"subcategory","title_cleaned":"industry","id":50,"absolute_url":"/courses/business/industry/"},{"children":null,"title":"Media","icon_name":"media","type":"subcategory","title_cleaned":"media","id":52,"absolute_url":"/courses/business/media/"},{"children":null,"title":"Real Estate","icon_name":"real-estate","type":"subcategory","title_cleaned":"real-estate","id":58,"absolute_url":"/courses/business/real-estate/"},{"children":null,"title":"Other","icon_name":"line-star","type":"subcategory","title_cleaned":"other-business","id":60,"absolute_url":"/courses/business/other-business/"}],"title":"Business","icon_name":"business","type":"category","title_cleaned":"business","id":268,"absolute_url":"/courses/business/"},{"children":[{"children":null,"title":"IT Certification","icon_name":"it-certification","type":"subcategory","title_cleaned":"it-certification","id":132,"absolute_url":"/courses/it-and-software/it-certification/"},{"children":null,"title":"Network \u0026 Security","icon_name":"network-and-security","type":"subcategory","title_cleaned":"network-and-security","id":134,"absolute_url":"/courses/it-and-software/network-and-security/"},{"children":null,"title":"Hardware","icon_name":"hardware","type":"subcategory","title_cleaned":"hardware","id":136,"absolute_url":"/courses/it-and-software/hardware/"},{"children":null,"title":"Operating Systems","icon_name":"operating-systems","type":"subcategory","title_cleaned":"operating-systems","id":138,"absolute_url":"/courses/it-and-software/operating-systems/"},{"children":null,"title":"Other","icon_name":"line-star","type":"subcategory","title_cleaned":"other-it-and-software","id":140,"absolute_url":"/courses/it-and-software/other-it-and-software/"}],"title":"IT \u0026 Software","icon_name":"it-and-software","type":"category","title_cleaned":"it-and-software","id":294,"absolute_url":"/courses/it-and-software/"},{"children":[{"children":null,"title":"Microsoft","icon_name":"microsoft","type":"subcategory","title_cleaned":"microsoft","id":96,"absolute_url":"/courses/office-productivity/microsoft/"},{"children":null,"title":"Apple","icon_name":"apple","type":"subcategory","title_cleaned":"apple","id":98,"absolute_url":"/courses/office-productivity/apple/"},{"children":null,"title":"Google","icon_name":"google","type":"subcategory","title_cleaned":"google","id":100,"absolute_url":"/courses/office-productivity/google/"},{"children":null,"title":"SAP","icon_name":"sap","type":"subcategory","title_cleaned":"sap","id":102,"absolute_url":"/courses/office-productivity/sap/"},{"children":null,"title":"Oracle","icon_name":"oracle","type":"subcategory","title_cleaned":"oracle","id":106,"absolute_url":"/courses/office-productivity/oracle/"},{"children":null,"title":"Other","icon_name":"line-star","type":"subcategory","title_cleaned":"other-productivity","id":108,"absolute_url":"/courses/office-productivity/other-productivity/"}],"title":"Office Productivity","icon_name":"office-productivity","type":"category","title_cleaned":"office-productivity","id":292,"absolute_url":"/courses/office-productivity/"},{"children":[{"children":null,"title":"Personal Transformation","icon_name":"personal-transformation","type":"subcategory","title_cleaned":"personal-transformation","id":142,"absolute_url":"/courses/personal-development/personal-transformation/"},{"children":null,"title":"Productivity","icon_name":"productivity","type":"subcategory","title_cleaned":"productivity","id":144,"absolute_url":"/courses/personal-development/productivity/"},{"children":null,"title":"Leadership","icon_name":"leadership","type":"subcategory","title_cleaned":"leadership","id":146,"absolute_url":"/courses/personal-development/leadership/"},{"children":null,"title":"Personal Finance","icon_name":"personal-finance","type":"subcategory","title_cleaned":"personal-finance","id":148,"absolute_url":"/courses/personal-development/personal-finance/"},{"children":null,"title":"Career Development","icon_name":"career-development","type":"subcategory","title_cleaned":"career-development","id":150,"absolute_url":"/courses/personal-development/career-development/"},{"children":null,"title":"Parenting \u0026 Relationships","icon_name":"parenting-and-relationships","type":"subcategory","title_cleaned":"parenting-and-relationships","id":152,"absolute_url":"/courses/personal-development/parenting-and-relationships/"},{"children":null,"title":"Happiness","icon_name":"happiness","type":"subcategory","title_cleaned":"happiness","id":156,"absolute_url":"/courses/personal-development/happiness/"},{"children":null,"title":"Religion \u0026 Spirituality","icon_name":"religion-and-spirituality","type":"subcategory","title_cleaned":"religion-and-spirituality","id":158,"absolute_url":"/courses/personal-development/religion-and-spirituality/"},{"children":null,"title":"Personal Brand Building","icon_name":"personal-brand-building","type":"subcategory","title_cleaned":"personal-brand-building","id":160,"absolute_url":"/courses/personal-development/personal-brand-building/"},{"children":null,"title":"Creativity","icon_name":"creativity","type":"subcategory","title_cleaned":"creativity","id":164,"absolute_url":"/courses/personal-development/creativity/"},{"children":null,"title":"Influence","icon_name":"influence","type":"subcategory","title_cleaned":"influence","id":166,"absolute_url":"/courses/personal-development/influence/"},{"children":null,"title":"Self Esteem","icon_name":"self-esteem","type":"subcategory","title_cleaned":"self-esteem","id":168,"absolute_url":"/courses/personal-development/self-esteem/"},{"children":null,"title":"Stress Management","icon_name":"stress-management","type":"subcategory","title_cleaned":"stress-management","id":170,"absolute_url":"/courses/personal-development/stress-management/"},{"children":null,"title":"Memory \u0026 Study Skills","icon_name":"memory","type":"subcategory","title_cleaned":"memory","id":172,"absolute_url":"/courses/personal-development/memory/"},{"children":null,"title":"Motivation","icon_name":"motivation","type":"subcategory","title_cleaned":"motivation","id":176,"absolute_url":"/courses/personal-development/motivation/"},{"children":null,"title":"Other","icon_name":"line-star","type":"subcategory","title_cleaned":"other-personal-development","id":178,"absolute_url":"/courses/personal-development/other-personal-development/"}],"title":"Personal Development","icon_name":"personal-development","type":"category","title_cleaned":"personal-development","id":296,"absolute_url":"/courses/personal-development/"},{"children":[{"children":null,"title":"Web Design","icon_name":"web-design","type":"subcategory","title_cleaned":"web-design","id":6,"absolute_url":"/courses/design/web-design/"},{"children":null,"title":"Graphic Design","icon_name":"graphic-design","type":"subcategory","title_cleaned":"graphic-design","id":110,"absolute_url":"/courses/design/graphic-design/"},{"children":null,"title":"Design Tools","icon_name":"design-tools","type":"subcategory","title_cleaned":"design-tools","id":112,"absolute_url":"/courses/design/design-tools/"},{"children":null,"title":"User Experience","icon_name":"user-experience","type":"subcategory","title_cleaned":"user-experience","id":114,"absolute_url":"/courses/design/user-experience/"},{"children":null,"title":"Game Design","icon_name":"game-design","type":"subcategory","title_cleaned":"game-design","id":116,"absolute_url":"/courses/design/game-design/"},{"children":null,"title":"Design Thinking","icon_name":"design-thinking","type":"subcategory","title_cleaned":"design-thinking","id":118,"absolute_url":"/courses/design/design-thinking/"},{"children":null,"title":"3D \u0026 Animation","icon_name":"3d-and-animation","type":"subcategory","title_cleaned":"3d-and-animation","id":120,"absolute_url":"/courses/design/3d-and-animation/"},{"children":null,"title":"Fashion","icon_name":"fashion","type":"subcategory","title_cleaned":"fashion","id":122,"absolute_url":"/courses/design/fashion/"},{"children":null,"title":"Architectural Design","icon_name":"architectural-design","type":"subcategory","title_cleaned":"architectural-design","id":124,"absolute_url":"/courses/design/architectural-design/"},{"children":null,"title":"Interior Design","icon_name":"interior-design","type":"subcategory","title_cleaned":"interior-design","id":128,"absolute_url":"/courses/design/interior-design/"},{"children":null,"title":"Other","icon_name":"line-star","type":"subcategory","title_cleaned":"other-design","id":130,"absolute_url":"/courses/design/other-design/"}],"title":"Design","icon_name":"design","type":"category","title_cleaned":"design","id":269,"absolute_url":"/courses/design/"},{"children":[{"children":null,"title":"Digital Marketing","icon_name":"digital-marketing","type":"subcategory","title_cleaned":"digital-marketing","id":62,"absolute_url":"/courses/marketing/digital-marketing/"},{"children":null,"title":"Search Engine Optimization","icon_name":"search-engine-optimization","type":"subcategory","title_cleaned":"search-engine-optimization","id":64,"absolute_url":"/courses/marketing/search-engine-optimization/"},{"children":null,"title":"Social Media Marketing","icon_name":"social-media-marketing","type":"subcategory","title_cleaned":"social-media-marketing","id":66,"absolute_url":"/courses/marketing/social-media-marketing/"},{"children":null,"title":"Branding","icon_name":"branding","type":"subcategory","title_cleaned":"branding","id":68,"absolute_url":"/courses/marketing/branding/"},{"children":null,"title":"Marketing Fundamentals","icon_name":"marketing-fundamentals","type":"subcategory","title_cleaned":"marketing-fundamentals","id":70,"absolute_url":"/courses/marketing/marketing-fundamentals/"},{"children":null,"title":"Analytics \u0026 Automation","icon_name":"analytics-and-automation","type":"subcategory","title_cleaned":"analytics-and-automation","id":72,"absolute_url":"/courses/marketing/analytics-and-automation/"},{"children":null,"title":"Public Relations","icon_name":"public-relations","type":"subcategory","title_cleaned":"public-relations","id":74,"absolute_url":"/courses/marketing/public-relations/"},{"children":null,"title":"Advertising","icon_name":"advertising","type":"subcategory","title_cleaned":"advertising","id":76,"absolute_url":"/courses/marketing/advertising/"},{"children":null,"title":"Video \u0026 Mobile Marketing","icon_name":"video-and-mobile-marketing","type":"subcategory","title_cleaned":"video-and-mobile-marketing","id":78,"absolute_url":"/courses/marketing/video-and-mobile-marketing/"},{"children":null,"title":"Content Marketing","icon_name":"content-marketing","type":"subcategory","title_cleaned":"content-marketing","id":80,"absolute_url":"/courses/marketing/content-marketing/"},{"children":null,"title":"Growth Hacking","icon_name":"growth-hacking","type":"subcategory","title_cleaned":"growth-hacking","id":86,"absolute_url":"/courses/marketing/growth-hacking/"},{"children":null,"title":"Affiliate Marketing","icon_name":"affiliate-marketing","type":"subcategory","title_cleaned":"affiliate-marketing","id":88,"absolute_url":"/courses/marketing/affiliate-marketing/"},{"children":null,"title":"Product Marketing","icon_name":"product-marketing","type":"subcategory","title_cleaned":"product-marketing","id":90,"absolute_url":"/courses/marketing/product-marketing/"},{"children":null,"title":"Other","icon_name":"line-star","type":"subcategory","title_cleaned":"other-marketing","id":94,"absolute_url":"/courses/marketing/other-marketing/"}],"title":"Marketing","icon_name":"marketing","type":"category","title_cleaned":"marketing","id":290,"absolute_url":"/courses/marketing/"},{"children":[{"children":null,"title":"Arts \u0026 Crafts","icon_name":"arts-and-crafts","type":"subcategory","title_cleaned":"arts-and-crafts","id":180,"absolute_url":"/courses/lifestyle/arts-and-crafts/"},{"children":null,"title":"Food \u0026 Beverage","icon_name":"food-and-beverage","type":"subcategory","title_cleaned":"food-and-beverage","id":182,"absolute_url":"/courses/lifestyle/food-and-beverage/"},{"children":null,"title":"Beauty \u0026 Makeup","icon_name":"beauty-and-makeup","type":"subcategory","title_cleaned":"beauty-and-makeup","id":184,"absolute_url":"/courses/lifestyle/beauty-and-makeup/"},{"children":null,"title":"Travel","icon_name":"travel","type":"subcategory","title_cleaned":"travel","id":186,"absolute_url":"/courses/lifestyle/travel/"},{"children":null,"title":"Gaming","icon_name":"gaming","type":"subcategory","title_cleaned":"gaming","id":188,"absolute_url":"/courses/lifestyle/gaming/"},{"children":null,"title":"Home Improvement","icon_name":"home-improvement","type":"subcategory","title_cleaned":"home-improvement","id":190,"absolute_url":"/courses/lifestyle/home-improvement/"},{"children":null,"title":"Pet Care \u0026 Training","icon_name":"pet-care-and-training","type":"subcategory","title_cleaned":"pet-care-and-training","id":192,"absolute_url":"/courses/lifestyle/pet-care-and-training/"},{"children":null,"title":"Other","icon_name":"line-star","type":"subcategory","title_cleaned":"other-lifestyle","id":194,"absolute_url":"/courses/lifestyle/other-lifestyle/"}],"title":"Lifestyle","icon_name":"lifestyle","type":"category","title_cleaned":"lifestyle","id":274,"absolute_url":"/courses/lifestyle/"},{"children":[{"children":null,"title":"Digital Photography","icon_name":"digital-photography","type":"subcategory","title_cleaned":"digital-photography","id":370,"absolute_url":"/courses/photography/digital-photography/"},{"children":null,"title":"Photography Fundamentals","icon_name":"photography-fundamentals","type":"subcategory","title_cleaned":"photography-fundamentals","id":196,"absolute_url":"/courses/photography/photography-fundamentals/"},{"children":null,"title":"Portraits","icon_name":"portraits","type":"subcategory","title_cleaned":"portraits","id":204,"absolute_url":"/courses/photography/portraits/"},{"children":null,"title":"Photography Tools","icon_name":"photography-tools","type":"subcategory","title_cleaned":"photography-tools","id":198,"absolute_url":"/courses/photography/photography-tools/"},{"children":null,"title":"Commercial Photography","icon_name":"commercial-photography","type":"subcategory","title_cleaned":"commercial-photography","id":208,"absolute_url":"/courses/photography/commercial-photography/"},{"children":null,"title":"Video Design","icon_name":"video-design","type":"subcategory","title_cleaned":"video-design","id":218,"absolute_url":"/courses/photography/video-design/"},{"children":null,"title":"Other","icon_name":"line-star","type":"subcategory","title_cleaned":"other-photography","id":220,"absolute_url":"/courses/photography/other-photography/"}],"title":"Photography","icon_name":"photography","type":"category","title_cleaned":"photography","id":273,"absolute_url":"/courses/photography/"},{"children":[{"children":null,"title":"Fitness","icon_name":"fitness","type":"subcategory","title_cleaned":"fitness","id":222,"absolute_url":"/courses/health-and-fitness/fitness/"},{"children":null,"title":"General Health","icon_name":"general-health","type":"subcategory","title_cleaned":"general-health","id":224,"absolute_url":"/courses/health-and-fitness/general-health/"},{"children":null,"title":"Sports","icon_name":"sports","type":"subcategory","title_cleaned":"sports","id":226,"absolute_url":"/courses/health-and-fitness/sports/"},{"children":null,"title":"Nutrition","icon_name":"nutrition","type":"subcategory","title_cleaned":"nutrition","id":228,"absolute_url":"/courses/health-and-fitness/nutrition/"},{"children":null,"title":"Yoga","icon_name":"yoga","type":"subcategory","title_cleaned":"yoga","id":230,"absolute_url":"/courses/health-and-fitness/yoga/"},{"children":null,"title":"Mental Health","icon_name":"mental-health","type":"subcategory","title_cleaned":"mental-health","id":232,"absolute_url":"/courses/health-and-fitness/mental-health/"},{"children":null,"title":"Dieting","icon_name":"dieting","type":"subcategory","title_cleaned":"dieting","id":234,"absolute_url":"/courses/health-and-fitness/dieting/"},{"children":null,"title":"Self Defense","icon_name":"self-defense","type":"subcategory","title_cleaned":"self-defense","id":236,"absolute_url":"/courses/health-and-fitness/self-defense/"},{"children":null,"title":"Safety \u0026 First Aid","icon_name":"safety-and-first-aid","type":"subcategory","title_cleaned":"safety-and-first-aid","id":238,"absolute_url":"/courses/health-and-fitness/safety-and-first-aid/"},{"children":null,"title":"Dance","icon_name":"dance","type":"subcategory","title_cleaned":"dance","id":240,"absolute_url":"/courses/health-and-fitness/dance/"},{"children":null,"title":"Meditation","icon_name":"meditation","type":"subcategory","title_cleaned":"meditation","id":242,"absolute_url":"/courses/health-and-fitness/meditation/"},{"children":null,"title":"Other","icon_name":"line-star","type":"subcategory","title_cleaned":"other-health-and-fitness","id":244,"absolute_url":"/courses/health-and-fitness/other-health-and-fitness/"}],"title":"Health \u0026 Fitness","icon_name":"health-and-fitness","type":"category","title_cleaned":"health-and-fitness","id":276,"absolute_url":"/courses/health-and-fitness/"},{"children":[{"children":null,"title":"Instruments","icon_name":"instruments","type":"subcategory","title_cleaned":"instruments","id":296,"absolute_url":"/courses/music/instruments/"},{"children":null,"title":"Production","icon_name":"production","type":"subcategory","title_cleaned":"production","id":298,"absolute_url":"/courses/music/production/"},{"children":null,"title":"Music Fundamentals","icon_name":"music-fundamentals","type":"subcategory","title_cleaned":"music-fundamentals","id":300,"absolute_url":"/courses/music/music-fundamentals/"},{"children":null,"title":"Vocal","icon_name":"vocal","type":"subcategory","title_cleaned":"vocal","id":302,"absolute_url":"/courses/music/vocal/"},{"children":null,"title":"Music Techniques","icon_name":"music-techniques","type":"subcategory","title_cleaned":"music-techniques","id":304,"absolute_url":"/courses/music/music-techniques/"},{"children":null,"title":"Music Software","icon_name":"music-software","type":"subcategory","title_cleaned":"music-software","id":306,"absolute_url":"/courses/music/music-software/"},{"children":null,"title":"Other","icon_name":"line-star","type":"subcategory","title_cleaned":"other-music","id":308,"absolute_url":"/courses/music/other-music/"}],"title":"Music","icon_name":"music","type":"category","title_cleaned":"music","id":278,"absolute_url":"/courses/music/"},{"children":[{"children":null,"title":"Engineering","icon_name":"development-tools","type":"subcategory","title_cleaned":"engineering","id":366,"absolute_url":"/courses/teaching-and-academics/engineering/"},{"children":null,"title":"Humanities","icon_name":"humanities","type":"subcategory","title_cleaned":"humanities","id":380,"absolute_url":"/courses/teaching-and-academics/humanities/"},{"children":null,"title":"Math","icon_name":"educational-development","type":"subcategory","title_cleaned":"math","id":310,"absolute_url":"/courses/teaching-and-academics/math/"},{"children":null,"title":"Science","icon_name":"math-and-science","type":"subcategory","title_cleaned":"science","id":312,"absolute_url":"/courses/teaching-and-academics/science/"},{"children":null,"title":"Online Education","icon_name":"instructional-design","type":"subcategory","title_cleaned":"online-education","id":523,"absolute_url":"/courses/teaching-and-academics/online-education/"},{"children":null,"title":"Social Science","icon_name":"social-science","type":"subcategory","title_cleaned":"social-science","id":376,"absolute_url":"/courses/teaching-and-academics/social-science/"},{"children":null,"title":"Language","icon_name":"language","type":"subcategory","title_cleaned":"language","id":521,"absolute_url":"/courses/teaching-and-academics/language/"},{"children":null,"title":"Teacher Training","icon_name":"teacher-training","type":"subcategory","title_cleaned":"teacher-training","id":527,"absolute_url":"/courses/teaching-and-academics/teacher-training/"},{"children":null,"title":"Test Prep","icon_name":"test-prep","type":"subcategory","title_cleaned":"test-prep","id":529,"absolute_url":"/courses/teaching-and-academics/test-prep/"},{"children":null,"title":"Other Teaching \u0026 Academics","icon_name":"academics","type":"subcategory","title_cleaned":"other-teaching-academics","id":525,"absolute_url":"/courses/teaching-and-academics/other-teaching-academics/"}],"title":"Teaching \u0026 Academics","icon_name":"academics","type":"category","title_cleaned":"teaching-and-academics","id":300,"absolute_url":"/courses/teaching-and-academics/"}],
+                organization_categories: [],
+            };
+        </script>
+    
+
+
+
+
+        
+
+
+
+
+        
+    <base href="/react-the-complete-guide-incl-redux/learn/">
+    <link rel="preload" as="script" href="/staticx/udemy/js/webpack/course-taking-app.335fae2f45178ed7aefb.js" >
+
+    </head>
+    <body id="udemy"
+          class="  udemy "
+            >
+
+        
+
+        
+
+        <div class="main-content-wrapper">
+            
+            
+                
+                    <div class="ud-app-loader ud-component--smart-bar--app"
+                         data-module-id="smart-bar"
+                         data-module-priority="-10"></div>
+                
+                
+                    
+
+
+
+<div class="c_header c_header--v6 c_header--desktop
+            c_header--ia c_header--ia-
+            ud-app-loader 
+            "
+     data-module-id="header-v6"
+     data-module-args="{&quot;cartDropdown&quot;:{&quot;listName&quot;:&quot;cart&quot;},&quot;wishlistDropdown&quot;:{&quot;listName&quot;:&quot;wishlist&quot;},&quot;manageUFBDropdownButton&quot;:{&quot;badges&quot;:{}},&quot;app&quot;:{&quot;isUFB&quot;:false,&quot;navUserType&quot;:null,&quot;isMobile&quot;:false,&quot;features&quot;:{&quot;public_profile&quot;:true,&quot;notifications&quot;:true,&quot;teach_link&quot;:true,&quot;invite&quot;:true,&quot;browse&quot;:true,&quot;teaching&quot;:true,&quot;drop_bell&quot;:false,&quot;ufb_ad_logged_in_header&quot;:true,&quot;profile&quot;:true,&quot;signup&quot;:true,&quot;reviews&quot;:true,&quot;discussions&quot;:true,&quot;payments&quot;:true,&quot;exp_mobile_global_nav&quot;:false,&quot;show_ufb_link&quot;:true,&quot;messaging&quot;:true,&quot;revenue_report&quot;:false,&quot;wishlist&quot;:true,&quot;instructor_signup_modal&quot;:false,&quot;language_select&quot;:false,&quot;payout_settings&quot;:false,&quot;exp_mobile_header&quot;:false},&quot;user&quot;:{&quot;initials&quot;:&quot;M&quot;,&quot;is_premium_instructor&quot;:false,&quot;logout_url&quot;:&quot;/user/logout/?h=E0ASdl5aRnUBUQ%3D%3D&quot;,&quot;email&quot;:&quot;mmerc007@ucr.edu&quot;,&quot;url&quot;:&quot;/user/marco-147/&quot;,&quot;image_50x50&quot;:&quot;https://i.udemycdn.com/user/50x50/anonymous_3.png&quot;,&quot;num_unread_threads&quot;:1,&quot;num_of_unread_activity_notifications&quot;:1,&quot;display_name&quot;:&quot;Marco&quot;},&quot;isStudent&quot;:true,&quot;isInstructor&quot;:false},&quot;mobileNav&quot;:{&quot;browse&quot;:{&quot;text&quot;:&quot;Categories&quot;},&quot;support&quot;:{&quot;url&quot;:&quot;/support/&quot;},&quot;performanceEnabled&quot;:true,&quot;teachHub&quot;:{&quot;url&quot;:&quot;https://teach.udemy.com/home&quot;},&quot;instructor&quot;:{&quot;text&quot;:&quot;Teach on Udemy&quot;,&quot;trackingDetail&quot;:&quot;become-an-instructor&quot;,&quot;url&quot;:&quot;/teaching/?ref=teach_header&quot;},&quot;mobileApp&quot;:{&quot;url&quot;:&quot;https://udemy.app.link/garBkjjtDO&quot;},&quot;ufb&quot;:{&quot;text&quot;:&quot;Udemy for Business&quot;,&quot;url&quot;:&quot;https://business.udemy.com/?ref=logged-in-nav&quot;}},&quot;creditMessage&quot;:null}"
+     data-module-priority="-10">
+
+    <div class="c_header__inner "
+         aria-label="Main navigation"
+         role="navigation">
+        
+            
+                
+                    <div class="c_header__logo-container">
+    
+        
+
+<a class="js-tracked-without-react c_header__logo-wrap"
+   href="/"
+   target="_self"
+   data-tracking-event="logo">
+    <img class="udemy-logo"
+         src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg"
+         alt="Udemy"
+         width="110" height="32"
+         data-purpose="udemy-brand-logo"/>
+</a>
+
+    
+</div>
+
+                
+            
+        
+
+        
+            <div class="c_header__left">
+                <div class="ud-component--header-v6--mobile-nav-trigger">
+                    <button class="btn btn-link c_header__mobile-bt"
+                            aria-label="Menu"
+                            data-purpose="side-menu-opener">
+                        
+                            <span class="udi udi-menu"></span>
+                        
+                    </button>
+                </div>
+                
+                    
+                        
+
+
+
+    <div class="ud-component--header-v6--category-dropdown-button hidden-xs hidden-xxs">
+        <div class="dropdown dropdown--open-on-hover dropdown--topics">
+            <a class="dropdown-toggle"
+   data-purpose="browse-courses-link"
+   id="header.browse"
+   data-tracking-event="topics.main"
+   role="button"
+   aria-haspopup="true"
+   aria-expanded="false"
+   href="javascript:void(0)">
+    <span class="udi udi-explore"></span>
+    <span>Categories</span>
+</a>
+
+
+            <ul class="dropdown-menu" role="menu" aria-labelledby="header.browse">
+                <li class="h100p" id="header.browse.categories">
+    <ul class="dropdown-menu__list dropdown-menu__list--level-one">
+        
+        
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.94">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 94px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.61">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 61px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.93">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 93px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.128">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 128px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.159">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 159px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.47">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 47px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.70">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 70px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.57">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 57px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.90">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 90px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.113">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 113px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.116">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 116px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.40">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 40px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.74">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 74px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.67">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 67px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+                <li class="menu__placeholder" id="header.browse.placeholder.65">
+    <div class="menu__placeholder--icon"></div>
+    <div class="menu__placeholder--text-wrapper">
+        <div class="menu__placeholder--text" style="width: 65px"></div>
+    </div>
+    <span class="udi udi-next menu__arrow"></span>
+</li>
+
+            
+        
+    </ul>
+</li>
+
+
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+<div class="c_header__search-wrapper ud-component--header-v6--header-es-autocomplete">
+    <div class="c_header__search">
+        
+        <button class="btn btn-link c_header__mobile-bt"
+                aria-label="Search">
+            <span class="udi udi-search"></span>
+        </button>
+        
+        <div class="c_quick-search__form">
+            <form action="/courses/search/"
+                  class="es-autocomplete es-autocomplete--primary">
+                <input type="hidden" name="src" value="ukw" />
+                <label for="header-search-field" class="sr-only">Search for anything</label>
+                <div class="input-group">
+                    <input type="text"
+                           name="q"
+                           id="header-search-field"
+                           data-purpose="search-input"
+                           class="form-control"
+                           placeholder="Search for anything"
+                           value=""
+                           autocomplete="off"
+                           maxlength="200" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-link"
+                                type="submit"
+                                aria-label="Search">
+                            <span class="udi udi-search"></span>
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+                    
+                
+            </div>
+            <div class="c_header__mobile-spacer">&nbsp;</div>
+        
+
+        
+            
+                
+
+<div class="c_header__right">
+    
+        
+            
+
+
+<div class="ud-component--header-v6--try-ufb-dropdown-button visible-lg-block visible-xl-block">
+    <div class="dropdown dropdown--ufb zero-state">
+        <a class="dropdown-toggle dropdown__toggle dropdown__main-link"
+           data-purpose="ufb-link"
+           data-tracking-event="ufb.ad-header"
+           id="header.try-ufb"
+           role="button"
+           aria-haspopup="true"
+           aria-expanded="false"
+           href="https://business.udemy.com/?ref=logged-in-nav"
+           target="_blank"
+           rel="noopener"
+           data-allow-referrer>
+            Udemy for Business
+        </a>
+    </div>
+
+    <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="header.try-ufb">
+        <li id="header.try-ufb.detail">
+            <div class="zero-state__detail">
+                
+                Get your team access to Udemy’s top 3,000 courses anytime, anywhere.
+            </div>
+            <div class="mt-space-sm">
+                <a class="zero-state__cta a11 semibold"
+                   data-tracking-event="ufb.learn-more"
+                   href="https://business.udemy.com/?ref=logged-in-nav"
+                   target="_blank"
+                   rel="noopener"
+                   data-allow-referrer>
+                    Try Udemy for Business
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+        
+    
+
+    
+
+
+    <div class="ud-component--header-v6--instructor-dropdown-button visible-lg-block visible-xl-block">
+        <div class="dropdown dropdown--open-on-hover dropdown--instructor zero-state">
+            <a class="dropdown-toggle"
+               data-purpose="instructor-dropdown"
+               data-tracking-event="teaching.main"
+               data-tracking-detail="become-an-instructor"
+               id="header.instructor"
+               role="button"
+               aria-haspopup="true"
+               aria-expanded="false"
+               href="/teaching/?ref=teach_header"
+               target="_self">
+                
+                    Teach on Udemy
+                
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="header.instructor">
+                
+                    <li id="header.instructor.first-course-creation">
+                        <div class="zero-state__detail">
+                            Turn what you know into an opportunity and reach millions around the world.
+                        </div>
+                        <div class="mt-space-sm">
+                            <a class="zero-state__cta a11 semibold"
+                               data-tracking-event="teaching.learn-more"
+                               href="/teaching/?ref=teach_header"
+                               target="_self">
+                                Learn more
+                            </a>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+
+    
+        <div class="visible-lg-block visible-xl-block header-right-divider"></div>
+    
+
+    
+        
+    
+
+
+<div class="ud-component--header-v6--my-courses-dropdown-button hidden-sm hidden-xs hidden-xxs">
+    <div class="dropdown dropdown--open-on-hover dropdown--mycourses">
+        <a class="dropdown-toggle"
+           data-purpose="my-courses"
+           data-tracking-event="learning.main"
+           id="header.my-courses"
+           role="button"
+           aria-haspopup="true"
+           aria-expanded="false"
+           href="/home/my-courses/learning/"
+           target="_self">
+            My Courses
+        </a>
+    </div>
+</div>
+
+
+    
+
+
+
+
+    <div class="wishlist visible-lg-block visible-xl-block">
+        <div class="ud-component--header-v6--wishlist-dropdown"
+             data-purpose="wishlist-icon">
+            <div class="dropdown dropdown--open-on-hover dropdown--icon dropdown--shopping-list">
+                <a class="dropdown-toggle"
+                   href="/home/my-courses/wishlist/"
+                   target="_self">
+                    <div class="fx pos-r text-center">
+                        <span class="sr-only">Wishlist</span>
+                        <span class="udi udi-heart-o dropdown__main-icon" data-purpose="wishlist-icon"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+
+
+
+    <div class="shopping-cart">
+        <div class="ud-component--header-v6--cart-dropdown"
+             data-purpose="cart-icon">
+            <div class="dropdown dropdown--open-on-hover dropdown--icon dropdown--shopping-list">
+                <a class="dropdown-toggle"
+                   href="/cart/"
+                   target="_self">
+                    <div class="fx pos-r text-center">
+                        <span class="sr-only">Shopping cart</span>
+                        <span class="udi udi-cart-line dropdown__main-icon" data-purpose="cart-icon"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    
+
+
+
+    <div class="c_activity-notification ud-component--header-v6--notification-dropdown-button visible-lg-block visible-xl-block">
+        <div class="dropdown dropdown--open-on-hover dropdown--icon dropdown--notification">
+            <a class="dropdown-toggle"
+               data-tracking-event="notifications.main"
+               id="header.notifications"
+               role="button"
+               aria-haspopup="true"
+               aria-expanded="false"
+               href="/user/view-notifications/"
+               target="_self">
+                <div class="fx pos-r text-center">
+                    <span class="sr-only">Notifications</span>
+                    <span class="udi udi-bell-line dropdown__main-icon"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+
+
+<div class="ud-component--header-v6--user-dropdown-button hidden-xs hidden-xxs">
+    <div class="dropdown dropdown--open-on-hover dropdown--user">
+        
+
+<a class="dropdown-toggle"
+   data-purpose="user-dropdown"
+   id="header.profile"
+   data-tracking-event="profile.main"
+   role="button"
+   aria-haspopup="true"
+   aria-expanded="false"
+   
+       
+           href="/user/edit-profile/"
+       
+   
+   target="_self">
+    
+
+
+
+
+    
+    
+        <div aria-label="Marco"
+             class="user-avatar user-avatar--initials "
+             data-purpose="dropdown-user-avatar"
+             style="width: 48px; font-size: 15px;">
+            <div class="user-avatar__inner fx-c">
+                <span class="user-initials">M</span>
+            </div>
+        </div>
+    
+
+
+</a>
+
+
+        <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="header.profile">
+    
+
+
+<li class="menu__link">
+    <a
+        
+            
+                href="/user/edit-profile/"
+            
+            aria-label="Edit your profile"
+        
+        target="_self"
+        id="header.profile.edit"
+        data-tracking-event="profile.edit"
+        data-purpose="edit-profile">
+        
+
+
+
+
+    
+    
+        <div aria-label="Marco"
+             class="user-avatar user-avatar--initials "
+             data-purpose="user-avatar"
+             style="width: 48px; font-size: 15px;">
+            <div class="user-avatar__inner fx-c">
+                <span class="user-initials">M</span>
+            </div>
+        </div>
+    
+
+
+        <span class="fx ml-space-xs">
+            <span class="text-midnight ellipsis">
+                Marco
+            </span>
+            <span class="a11 text-midnight-lighter ellipsis">
+                mmerc007@ucr.edu
+            </span>
+        </span>
+    </a>
+</li>
+
+
+    
+        <li class="menu__link hidden-lg hidden-xl">
+            <a href="/user/view-notifications/"
+               target="_self"
+               id="header.profile.notifications"
+               data-tracking-event="notifications.seen">
+                My notifications
+            </a>
+        </li>
+    
+
+
+
+    
+        <li class="menu__link">
+            <a href="/message/"
+               target="_self"
+               id="header.profile.messages"
+               data-tracking-event="profile.messages">
+                Messages
+            </a>
+        </li>
+    
+    
+        <li class="menu__link">
+            <a href="/dashboard/purchase-history/"
+               target="_self"
+               id="header.profile.purchase"
+               data-tracking-event="profile.purchase">
+                Purchase history
+            </a>
+        </li>
+    
+
+    
+        <li class="menu__link">
+            <a href="/user/edit-account/"
+               target="_self"
+               id="header.profile.account"
+               data-tracking-event="profile.account-menu">
+                Account
+            </a>
+        </li>
+    
+    
+        <li class="menu__link">
+            <a href="/user/edit-credit-cards/"
+               target="_self"
+               id="header.profile.payment-method"
+               data-tracking-event="profile.ia.payment-method">
+                Payment methods
+            </a>
+        </li>
+        <li class="menu__link">
+            <a href="/dashboard/credit-history/"
+               target="_self"
+               id="header.profile.credits"
+               data-tracking-event="profile.credits">
+                Udemy credits
+            </a>
+        </li>
+    
+    <li class="menu__link hidden-md hidden-lg hidden-xl">
+        <a href="/home/my-courses/learning/"
+           target="_self"
+           id="header.profile.student-courses"
+           data-tracking-event="profile.learning">
+            My Courses
+        </a>
+    </li>
+    
+        <li class="menu__link hidden-lg hidden-xl">
+            <a href="/home/my-courses/wishlist/"
+               target="_self"
+               id="header.profile.wishlist"
+               data-tracking-event="profile.wishlist">
+                Wishlist
+            </a>
+        </li>
+    
+    
+        <li class="menu__link hidden-lg hidden-xl">
+            <a href="/teaching/?ref=teach_header"
+               target="_self"
+               id="header.profile.instructor-courses"
+               data-tracking-event="profile.teaching"
+               data-tracking-detail="become-an-instructor">
+                Teach on Udemy
+            </a>
+        </li>
+    
+
+
+    
+
+<li role="separator" class="divider" id="header.profile.bottom-divider"></li>
+
+
+    <li class="menu__link">
+        <a href="/support/"
+           target="_blank"
+           rel="noopener noreferrer"
+           id="header.profile.help"
+           data-tracking-event="profile.support">
+            Help
+        </a>
+    </li>
+
+
+<li class="menu__link">
+    <a href="/user/logout/?h=E0ASdl5aRnUBUQ%3D%3D"
+       target="_self"
+       id="header.profile.log-out"
+       data-tracking-event="profile.logout"
+       data-purpose="do-logout">
+        Log out
+    </a>
+</li>
+
+
+    
+        <li role="separator" class="divider divider--account-ads"
+            id="header.profile.bottom-divider2"></li>
+    
+
+    
+        <li class="menu__link account-menu-ufb-ad">
+            <a href="https://business.udemy.com/?ref=account-menu"
+               rel="noopener"
+               data-allow-referrer
+               target="_blank"
+               id="header.profile.ufb"
+               data-tracking-event="profile.ufb-ad"
+               data-purpose="menu-ufb-ad">
+                <div class="bg-rain-lighter p-space-xs w100p">
+                    <div>Udemy for Business</div>
+                    <div class="a11 text-midnight-lighter text-wrap">
+                        Bring learning to your organization
+                    </div>
+                </div>
+            </a>
+        </li>
+    
+
+    
+        <li class="menu__link account-menu-teach-ad">
+            <a href="/teaching/?ref=account-menu"
+               target="_blank"
+               rel="noopener noreferrer"
+               id="header.profile.teach"
+               data-tracking-event="profile.teach-ad"
+               data-purpose="menu-teach-ad">
+                <div class="bg-rain-lighter p-space-xs w100p">
+                    <div>Teach on Udemy</div>
+                    <div class="a11 text-midnight-lighter text-wrap">
+                        Share your knowledge with the world
+                    </div>
+                </div>
+            </a>
+        </li>
+    
+
+
+</ul>
+
+    </div>
+</div>
+
+
+    
+</div>
+
+            
+        
+    </div>
+    <div class="ud-component--header-v6--mobile-nav"></div>
+    <div class="ud-component--header-v6--dropdown-overlay"></div>
+</div>
+
+
+                
+            
+
+            
+
+
+
+
+            <div class="main-content">
+                
+    <div class="ud-app-loader ud-component--course-taking--app w100p h100p"
+         data-module-id="course-taking"
+         data-module-args="{&quot;canUserEditCourse&quot;:false,&quot;hasDismissedReviewPrompt&quot;:false,&quot;isUserInstructor&quot;:false,&quot;isPreviewingAsStudent&quot;:false,&quot;initialCurriculumItemId&quot;:8094578,&quot;courseId&quot;:1362070,&quot;initialCurriculumItemType&quot;:&quot;lecture&quot;,&quot;canManageCourseQA&quot;:false}">
+    </div>
+
+    
+
+
+
+
+            </div>
+
+            
+                
+                    <div class="ud-app-loader ud-angular--intercom--app"
+                         data-module-id="intercom"></div>
+                
+            
+
+            
+                
+
+
+
+
+<div class="footer-v6 footer--marketplace ud-app-loader ud-component--footer--app
+            footer--en-us
+            
+            footer--with-inst-banner"
+     data-module-id="footer"
+     data-module-args="{&quot;localeDropdown&quot;:{&quot;currentLanguage&quot;:&quot;English&quot;},&quot;mobileAppDownload&quot;:{&quot;link&quot;:&quot;https://udemy.app.link/garBkjjtDO&quot;},&quot;ufbNotice&quot;:{&quot;link&quot;:&quot;https://business.udemy.com/request-demo/&quot;}}"
+     data-module-priority="-20"
+     data-purpose="footer-bar">
+    <div class="fixed-message-container">
+        <div class="ud-component--footer--legal-message"></div>
+
+        <div class="ud-app-loader ud-component--footer--eu-cookie-message"
+     data-module-id="eu-cookie-message"
+     data-module-priority="-20">
+</div>
+
+    </div>
+    <footer>
+        
+            
+                
+
+
+<div class="footer__inst-banner">
+    <div class="container">
+        <div class="ud-component--footer--inst-banner"></div>
+
+        <div class="container-fluid">
+            
+
+
+<div class="row">
+    <div class="inst-banner__content">
+        <div class="hidden-xs hidden-xxs">
+             <img alt="Video course"
+                 class="inst-banner__icon mr20"
+                 src="https://i.udemycdn.com/teaching/teach-footer.png"
+                 width="200" height="180" />
+        </div>
+        <div class="inst-banner__copy">
+            <div class="inst-banner__heading">
+                Teach the world online
+            </div>
+            <div class="inst-banner__subheading">
+                Create an online video course, reach students across the globe, and earn money
+            </div>
+        </div>
+        <div>
+            <a class="btn btn-default inst-banner__btn pt10"
+               href="/teaching/?ref=bai-sub-footer"
+               role="button"
+               tabindex="0">
+                Teach on Udemy
+            </a>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+            
+            
+                <hr />
+                <div class="container-fluid footer__main">
+                    <div class="row">
+                        <div class="hidden-xxs hidden-xs col-sm-9 footer__links--main">
+                            
+
+
+<ul class="links ">
+    
+            
+                
+                    <li>
+                        
+
+<a class="ud-click-tracking bold"
+    data-purpose="footer.links.business"
+    href="https://business.udemy.com/?ref=footer&amp;data_h=AkoccVZRTHw="
+    
+    data-type="udemy-business-footer-clicked"
+    >
+    Udemy for Business
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" bold"
+    data-purpose="footer.links.teach"
+    href="/teaching/?ref=teach_footer"
+    
+    
+    >
+    Teach on Udemy
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.mobile"
+    href="/mobile/"
+    
+    
+    >
+    Udemy app
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.about"
+    href="https://about.udemy.com/?locale=en-us"
+    
+    
+    >
+    About us
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.careers"
+    href="https://about.udemy.com/careers?locale=en-us"
+    
+    
+    >
+    Careers
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.blog"
+    href="https://about.udemy.com/blog?ref=footer"
+    
+    
+    >
+    Blog
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+            
+    
+            
+                
+            
+    
+            
+                
+            
+    
+            
+                <li>
+                    
+                        
+                            
+
+<a class=" breadcrumb"
+    data-purpose="footer.links.topics"
+    href="/topics/"
+    
+    
+    >
+    Topics
+</a>
+
+                        
+                    
+                        
+                            
+
+<a class=" "
+    data-purpose="footer.links.concepts"
+    href="/concept/"
+    
+    
+    >
+    Concepts
+</a>
+
+                        
+                    
+                </li>
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.support"
+    href="/support/"
+    
+    
+    >
+    Support
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+            
+    
+            
+                
+                    <li>
+                        
+
+<a class=" "
+    data-purpose="footer.links.affiliates"
+    href="/affiliate/"
+    
+    
+    title="Udemy Affiliate Program">
+    Affiliate
+</a>
+
+                    </li>
+                
+            
+    
+            
+                
+            
+    
+</ul>
+
+                        </div>
+                        <div class="col-sm-3">
+                            
+
+<div class="ud-component--footer--locale-dropdown text-right footer__locale-dropdown">
+    
+    <div class="dropup btn-group locale-dropdown">
+        <button aria-label="Select language"
+                data-purpose="locale-dropdown-btn"
+                id="locale-dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                type="button"
+                class="dropdown-toggle btn btn-sm btn-quaternary">
+            <span>
+                <span class="mr15">
+                    <span class="ml10 mr10 udi udi-globe"></span>
+                    <span class="mr10">English</span>
+                </span>
+                <span class="pos-a" style="right: 12px;">
+                    <span class="dropdown-caret udi udi-angle-down"></span>
+                </span>
+            </span>
+        </button>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+
+                
+                    <hr />
+                    <div class="ud-component--footer--ufb-notice"></div>
+                
+
+                <hr />
+                <div class="container-fluid footer__bottom">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            
+
+
+
+<a class="dib mr20"
+    href="/">
+    <img alt="Udemy"
+        class="ufb-logo"
+        src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg"
+        width="110" height="32" />
+</a>
+
+
+    <div class="visible-xxs-block visible-xs-inline-block mb10"></div>
+    <span class="footer__copyright dib mr20 text-midnight-lighter">
+        Copyright &copy; 2019 Udemy, Inc.
+    </span>
+    <div class="visible-xxs-block visible-xs-inline-block mb10"></div>
+
+
+                        </div>
+                        <div class="col-sm-6 text-right footer__links--bottom">
+                            
+
+
+<ul class="links list-inline">
+    <li>
+        <a data-purpose="terms-link"
+           href="/terms/">
+            Terms
+        </a>
+    </li>
+    <li>
+        <a data-purpose="privacy-link"
+           href="/terms/privacy/">
+            Privacy Policy and Cookie Policy
+        </a>
+    </li>
+    <li>
+        
+            
+                
+
+<a class=" breadcrumb"
+    data-purpose="footer.links.topics"
+    href="/topics/"
+    
+    
+    >
+    Topics
+</a>
+
+            
+        
+            
+                
+
+<a class=" "
+    data-purpose="footer.links.concepts"
+    href="/concept/"
+    
+    
+    >
+    Concepts
+</a>
+
+            
+        
+    </li>
+    <li class="footer__app-download-link ud-component--footer--mobile-app-download-link">
+        <a data-purpose="app-download-link"
+           href="https://udemy.app.link/garBkjjtDO"
+           target="_blank">
+            Get The App
+        </a>
+    </li>
+</ul>
+
+                        </div>
+                    </div>
+                </div>
+            
+            <hr class="hr-primary" />
+            <div class="ud-component--footer--incentive-signup"></div>
+            <div class="ud-component--footer--share-welcome-popup"></div>
+        
+    </footer>
+</div>
+
+                
+
+
+
+
+                
+
+            
+        </div>
+        
+
+<script type="text/javascript" src="/staticx/udemy/js/webpack/entry-manifest.097d0f9f489c2851b8bc.js" defer></script>
+<script type="text/javascript" src="/staticx/udemy/js/webpack/entry-main-desktop-vendor.5bda0c18d10c1a90d8bd.js" defer></script>
+
+    <script type="text/javascript" src="/staticx/udemy/js/webpack/jsi18n-en-us.3d30aefb10f0ced2b14d.js" defer></script>
+
+<script type="text/javascript" src="/staticx/udemy/js/webpack/entry-main-desktop.d94fe1ace7b424de929a.js" defer></script>
+
+    </body>
+</html>
